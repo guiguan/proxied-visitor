@@ -1,0 +1,45 @@
+{
+  "name": "proxied-visitor",
+  "version": "0.1.0",
+  "description": "Use public proxy list to visit a web link from all over the world",
+  "contributors": [{
+    "name": "Guan Gui",
+    "email": "root@guiguan.net"
+  }],
+  "main": "src/",
+  "keywords": [
+    "proxy",
+    "request",
+    "distributed"
+  ],
+  "engines": {
+    "node": ">= 7.2.1"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/.",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiguan/proxied-visitor.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/guiguan/proxied-visitor/issues"
+  },
+  "homepage": "https://github.com/guiguan/proxied-visitor",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "request": "^2.79.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0"
+  }
+}
